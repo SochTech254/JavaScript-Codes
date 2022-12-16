@@ -1,0 +1,14 @@
+Research on :
+	JS OOP : Aggregation, Composition
+
+JavaScript has OOP capabilities like Encapsulation, Aggregation, Composition, Inheritance, and Polymorphism
+
+Aggregation :
+	A "uses" B = Aggregation : B exists independently(conceptually) from A
+	example :
+		Let say we have objects : "address", "student", "teacher"
+		We want to specify "student address" and "teacher address"
+		Then we can reuse "address" between "student" and "teacher" 
+
+Composition :
+	A "owns" B = Composition : B has no meaning or purose in the system without A	

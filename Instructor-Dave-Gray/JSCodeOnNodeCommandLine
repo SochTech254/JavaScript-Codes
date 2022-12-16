@@ -1,0 +1,81 @@
+Type ".help" for more information.
+> // single-line comment
+undefined
+> /* multi-line comment */
+undefined
+> // There are four basic data types in JS: String, Number, Boolean
+undefined
+> // and Undefined
+undefined
+> "SochTech"
+'SochTech'
+> typeof "SochTech"
+'string'
+> typeof 42
+'number'
+> typeof
+... true;
+'boolean'
+> typeof false;
+'boolean'
+> let myVariable;
+undefined
+> typeof myVariable;
+'undefined'
+> myVariable = "SochTech";
+'SochTech'
+> typeof myVariable;
+'string'
+> myVariable = 42;
+42
+> typeof myVariable;
+'number'
+> 42 + 2
+44
+> 42 - 2;
+40
+> let myNumber = 42;
+undefined
+> myNumber + 2;
+44
+> myNumber * 2;
+84
+> myNumber / 2;
+21
+> myNumber = 44 * 2;
+88
+> myNumber;
+88
+> myVariable;
+42
+> myVariable = "Dave";
+'Dave'
+> myNumber + myVariable;
+'88Dave'
+> let
+Uncaught ReferenceError: let is not defined
+> let myCombo = myNumber + myVariable;
+undefined
+> typeof myCombo;
+'string'
+> myCombo;
+'88Dave'
+> myNumber + 2;
+90
+> myVariable === myNumber;
+false
+> myNumber;
+88
+> myNumber === 88;
+true
+> let myBool = myNumber === 88;
+undefined
+> myBool;
+true
+> myNumber !== 88;
+false
+> myNumber >= 88;
+true
+> myNumber < 88;
+false
+>
